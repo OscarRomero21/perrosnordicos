@@ -1,0 +1,18 @@
+###
+
+GET http://localhost:8000/api/razas/
+
+###
+POST http://localhost:8000/api/razas
+Content-Type: application/json
+//x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNWQ3MjIzMDg3ZTc3Zjg2ZDY4ZDEyZCIsImlhdCI6MTY1MDI5MTI4MCwiZXhwIjoxNjUwMzc3NjgwfQ.9ZVGvx39Ih80agRar-C4wCn3L6qAjFyJR60Hkli1Vcc
+
+{
+      
+  "Caracteristicas": "Hoy en día, el chow chow es comúnmente un animal de compañía. Las muestras de timidez y agresión no son características de esta raza, siempre y cuando, el perro sea correctamente socializado desde cachorro, tiene un fuerte instinto territorial. Los Chow Chows son ideales para convivir con otros animales, una buena convivencia depende de una buena selección y la socialización desde muy temprana edad No es una raza muy activa, así es que la vida en un departamento le viene bien. A pesar de que la raza muestra poca energía la mayor parte del tiempo, necesita una rutina para poder explorar su entorno y así mantener un temperamento estable. Los dueños deben proporcionarle caminatas diarias, así sea en un pequeño lugar, por lo menos en dos sesiones de 30 minutos cadauna, para satisfacer sus necesidades físicas y mentales.",
+  "Nombre": "Chow chow",
+  "LugarOrigen": "China"
+  
+  
+}
+
