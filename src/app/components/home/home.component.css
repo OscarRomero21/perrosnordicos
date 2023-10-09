@@ -1,0 +1,32 @@
+
+    .container {
+        background: url('../../assets/perros2.jpg') center center fixed;
+        background-size: cover; /* Ajusta la imagen para que quepa completamente en el contenedor */
+        background-repeat: no-repeat;
+        height: 100vh; /* Ajusta la altura al 100% de la ventana */
+        width: 100vw; /* Ajusta el ancho al 100% de la ventana */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px
+    }   
+
+/* Estilos para los botones si es necesario */
+.container button {
+    font-size: 20px; /* Tamaño del texto del botón */
+    padding: 15px 30px; /* Espaciado interno del botón (arriba/abajo y izquierda/derecha) */
+    margin: 10px; /* Margen alrededor del botón */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 8px; /* Borde redondeado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse sobre el botón */
+}
+
+
+.title {
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior de la ventana */
+    left: 10px; /* Distancia desde el lado izquierdo de la ventana */
+    font-size: 24px;
+}

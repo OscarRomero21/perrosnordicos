@@ -1,0 +1,15 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana */
+  }
+  
+  .custom-textarea {
+    font-family: Arial, sans-serif;
+    height: 300px; /* Altura deseada del cuadro de texto */
+    width: 80%; /* Ancho deseado del cuadro de texto */
+    font-size: 16px; /* Tamaño de fuente deseado */
+    resize: none; /* Evita que el usuario pueda redimensionar el área de texto */
+  }
+  
